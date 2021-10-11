@@ -1,0 +1,158 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Dosis',sans-serif;
+    text-transform: capitalize;
+/*    background-color: black;*/
+}
+.bar{
+    width: 80%;
+    margin: auto;
+}
+.navbar{
+    display: flex;
+    margin: 30px auto;
+    align-items: center;
+    
+}
+ul{
+    flex: 1;
+   text-align: right;
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 0 10px;
+    position: relative;
+    font-size: 20px;
+    font-weight: 500;
+}
+ul li a:after{
+    content: '';
+    width: 0;
+/*    height: 10px;*/
+    
+    position: absolute;
+/*    left: 50%;*/
+/*    transform: translateX(-50%);*/
+/*    top:-55px;*/
+    transition:  .5s;
+}
+
+ul li a:hover{
+    padding-bottom: 3px;
+    width: 100%;
+    border-bottom: 4px solid #e01a2f; 
+}
+.navbar-icon i{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    height: 25px;
+    cursor: pointer;
+}
+.navbar-icon {
+    margin-left: 40px;
+}
+.banner{
+    margin-top: 80px;
+    display: flex;
+}
+
+.left, .right{
+    flex-basis: 50%;
+}
+.right img{
+    width: 100%;
+}
+.search-box{
+    width: 45%;
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #ddd;
+    margin: 10px 0 30px;
+    
+    
+}
+.search-box img {
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    
+}
+.search-box input{
+    width: 100%;
+    margin-left: 15px;
+    font-size: 17px;
+    border:none;
+    outline: none;
+}
+.left h1{
+    font-size: 100px;
+}
+.left h3{
+    font-size: 35px;
+    
+}
+span{
+    color: #e01a2f;
+}
+.left p{
+   letter-spacing: 1px;
+    font-size: 17px;
+    color: #999;
+    margin: 50px 0;
+    
+}
+.btn button {
+    padding: 7px 30px;
+    margin-right: 15px;
+    outline: none;
+    border: 1px solid #fb7381;
+    border-radius: 20px;
+    cursor: pointer;
+    color:  #fb7381;
+    background: transparent;
+}
+.btn .btn-primary{
+    background: linear-gradient(#e01a2f, #f14a60);
+    box-shadow: 0 2px 15px rgba(248, 38 , 103, 0.26);
+    color: white;
+}
+.social-icon{
+    height: 100px;
+    width: 50%;
+    padding-top: 30px;
+    text-align: center;
+}
+.social-icon i{
+     font-size: 25px;
+    margin-top: 20px;
+    padding-left: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.social-icon i:hover{
+    color: #e01a2f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
